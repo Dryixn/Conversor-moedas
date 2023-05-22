@@ -9,7 +9,7 @@ while True:
     escolha = str(input('Dólar, Euro ou Iene ')).strip().upper()
     print('=' * 80)
     if escolha == 'DÓLAR' or escolha == 'DOLAR':
-        dolar = float(input('Valor a ser convertido: U$'))
+        dolar = float(input('Valor a ser convertido: US$'))
         print(f'O valor convertido para reais fica R${dolar*5:.2f}')
         print('=' * 80)
     elif escolha == 'EURO':
